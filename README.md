@@ -43,6 +43,18 @@ Usage:
 easy-bust <target> [type] [port] [wordlist]
 ```
 
+### set-myip
+`set-myip.sh` is a quick utility to put your IP into $myip environment variable for the session
+
+- `-i`: Interactive mode, which will list your IPs and interfaces and allow you to choose. If not specified, tun0 will be used.
+
+Usage:
+```
+. ~/scripts/set-myip.sh -i
+
+echo $myip
+```
+
 ## Please Use Responsibly
 
 These scripts are intended for ethical hacking purposes only, such as Capture The Flag (CTF) challenges or authorized penetration testing.
