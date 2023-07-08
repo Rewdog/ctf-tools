@@ -50,7 +50,7 @@ easy-bust <target> [type] [port] [wordlist]
 
 Usage:
 ```
-. ~/scripts/set-myip.sh -i
+. set-myip -i
 
 echo $myip
 ```
