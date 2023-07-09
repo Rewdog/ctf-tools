@@ -55,6 +55,22 @@ Usage:
 echo $myip
 ```
 
+### start-webserver
+start-webserver.sh sets up a simple HTTP server for Capture The Flag (CTF) challenges. This script sets up a local web server in the directory www which contains shell scripts for reverse shell and a latest version of the linpeas enumeration tool.
+
+- It checks if the $myip environment variable is set, if not, it runs set-myip script.
+- It creates a new directory www in the current directory.
+- It downloads the latest version of linpeas from its official GitHub repository and places it in the www directory.
+- It creates a shell.sh file in the www directory, which can be used to initiate a reverse shell.
+- It starts a Python3 HTTP server on port 4444.
+- It prints out a set of useful commands related to the reverse shell and linpeas for quick copying.
+
+Usage:
+
+```
+start-webserver
+```
+
 ## Please Use Responsibly
 
 These scripts are intended for ethical hacking purposes only, such as Capture The Flag (CTF) challenges or authorized penetration testing.

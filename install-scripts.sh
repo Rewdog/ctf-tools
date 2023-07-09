@@ -11,3 +11,7 @@ chmod +x /usr/local/bin/easy-bust
 # set-myip
 cp set-myip.sh /usr/local/bin/set-myip
 chmod +x /usr/local/bin/set-myip
+
+# start-webserver
+cp start-webserver.sh /usr/local/bin/start-webserver
+chmod +x /usr/local/bin/start-webserver
