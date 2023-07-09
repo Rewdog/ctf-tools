@@ -56,7 +56,7 @@ echo $myip
 ```
 
 ### start-webserver
-start-webserver.sh sets up a simple HTTP server for Capture The Flag (CTF) challenges. This script sets up a local web server in the directory www which contains shell scripts for reverse shell and a latest version of the linpeas enumeration tool.
+`start-webserver.sh` sets up a simple HTTP server for Capture The Flag (CTF) challenges. This script sets up a local web server in the directory www which contains shell scripts for reverse shell and a latest version of the linpeas enumeration tool.
 
 - It checks if the $myip environment variable is set, if not, it runs set-myip script.
 - It creates a new directory www in the current directory.
